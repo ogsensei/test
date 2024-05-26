@@ -1,0 +1,4 @@
+kubectl get all -A
+kubectl get ns
+kubectl get pods -n namespacename
+kubectl get ns --show-labels
