@@ -3,3 +3,4 @@ kubectl get ns
 kubectl get pods -n namespacename
 kubectl get ns --show-labels
 kubectl -n test exec -it nginx -- /bin/bash
+kubectl get pods -n test -o wide
